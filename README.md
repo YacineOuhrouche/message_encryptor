@@ -1,3 +1,42 @@
-This Python program encrypts and decrypts messages using a basic encryption technique called the Caesar Cipher. The Caesar Cipher shifts each letter of the message by a certain number (called "shift value"). This means each letter is replaced by another letter that’s a few places ahead or behind in the alphabet.
+# 🔐 Caesar Cipher Encryption/Decryption
+
+This Python program allows you to **encrypt** and **decrypt** messages using the **Caesar Cipher** technique, a basic encryption method where each letter in the message is **shifted** by a certain number of positions in the alphabet.
+
+---
+
+## ✨ Features
+
+✅ **Encrypt** messages by shifting letters  
+✅ **Decrypt** messages to retrieve the original text  
+✅ Adjustable **shift value** for customization  
+✅ Handles both **uppercase** and **lowercase** letters
+
+---
+
+## 🛠️ Technologies Used
+
+| Technology | Purpose |
+|---|---|
+| **Python** | Core programming language for encryption and decryption |
+
+---
+
+## 🔐 How It Works
+
+1. **Encryption**: Each letter of the message is shifted forward by the **shift value** (e.g., shift by 3).
+   - Example: `"A"` with a shift value of 3 becomes `"D"`.
+   
+2. **Decryption**: The message is shifted **backward** by the same **shift value** to reveal the original text.
+   - Example: `"D"` with a shift value of 3 becomes `"A"`.
+
+3. The program supports both **uppercase** and **lowercase** letters, while leaving non-alphabetic characters (like spaces and punctuation) unchanged.
+
+
+
+## 📸 
+
+
+
+
 
 ![Screenshot 2025-01-16 144145](https://github.com/user-attachments/assets/a962bfc5-a9cd-4b73-8e8d-1091094f5fb7)
